@@ -1,0 +1,28 @@
+{
+  "name": "devops-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "test": "jest --runInBand"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielIstock/devops-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielIstock/devops-node-api/issues"
+  },
+  "homepage": "https://github.com/DanielIstock/devops-node-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
